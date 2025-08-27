@@ -1,5 +1,7 @@
 import random
 import time
+import psutil
+import os
 
 def mostrar_tabela(tabela):
     print("\nTabela Simplex:")
@@ -212,9 +214,13 @@ if __name__ == "__main__":
     print("MÉTODO SIMPLEX PADRÃO PARA PROBLEMAS DE TRANSPORTE")
     print("=" * 60)
     
+    processo = psutil.Process(os.getpid())
+    
+    inicio = time.time()
+    
     # ALTERE AQUI O TAMANHO DO PROBLEMA
-    m = 5   # número de origens
-    n = 5   # número de destinos
+    m = 20   # número de origens
+    n = 20   # número de destinos
     
     print(f"\nGerando problema de transporte: {m}×{n}")
     
@@ -250,6 +256,18 @@ if __name__ == "__main__":
     
     print("SOLUÇÃO ÓTIMA:")
     print("-" * 20)
+    
+    fim = time.time()
+    
+    # Medidas de consumo
+    tempo_execucao = fim - inicio
+    memoria = processo.memory_info().rss / (1024 * 1024)  # MB
+    cpu_percent = processo.cpu_percent(interval=1.0)  # % CPU
+    
+    print("\n--- MÉTRICAS PYTHON ---")
+    print(f"Tempo de execução: {tempo_execucao:.2f} segundos")
+    print(f"Memória usada: {memoria:.2f} MB")
+    print(f"Uso médio de CPU: {cpu_percent:.2f}%")
     
     solucao_encontrada = False
     for i in range(m):
