@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include <float.h>
 #include <time.h>
+#include <windows.h>
+#include <psapi.h>
 
 // Função para mostrar a tabela simplex
 void mostrar_tabela(double **tabela, int linhas, int colunas) {
@@ -266,37 +268,43 @@ void gerar_problema_transporte_grande(int m, int n, int **oferta_ret, int **dema
 }
 
 // Função principal
+size_t memoria_usada_MB() {
+    PROCESS_MEMORY_COUNTERS pmc;
+    if (GetProcessMemoryInfo(GetCurrentProcess(), &pmc, sizeof(pmc))) {
+        return pmc.PeakWorkingSetSize / (1024 * 1024); // retorna em MB
+    }
+    return 0;
+}
+
+// ======================
+// Função principal
+// ======================
 int main() {
-    // Altere os valores abaixo para testar com problemas maiores
-    int m = 1000;  // número de fontes (reduzido para teste)
-    int n = 1000;  // número de destinos (reduzido para teste)
+    int m = 20;  // número de fontes
+    int n = 20;  // número de destinos
 
     printf("Gerando problema de transporte %dx%d...\n", m, n);
+
+    clock_t inicio = clock();
 
     int *oferta, *demanda, **custos;
     gerar_problema_transporte_grande(m, n, &oferta, &demanda, &custos);
 
-    printf("Construindo tabela simplex...\n");
     int linhas, colunas;
     double **tabela = construir_tabela_transporte(oferta, demanda, custos, m, n, &linhas, &colunas);
 
-    printf("Resolvendo usando algoritmo simplex...\n");
     double **tabela_final = simplex(tabela, linhas, colunas, 0);
 
-    printf("Extraindo solução...\n");
     double *valores, custo_total;
     extrair_solucao(tabela_final, linhas, colunas, m, n, &valores, &custo_total);
 
-    // Mostrar solução
-    printf("\nSolução ótima encontrada:\n");
-    for (int i = 0; i < m; i++) {
-        for (int j = 0; j < n; j++) {
-            double x = valores[i * n + j];
-            if (x > 0) {
-                printf("x%d%d = %.2f\n", i + 1, j + 1, x);
-            }
-        }
-    }
+    clock_t fim = clock();
+    double tempo_exec = (double)(fim - inicio) / CLOCKS_PER_SEC;
+
+    printf("\n--- MÉTRICAS C (Windows) ---\n");
+    printf("Tempo de execução: %.4f segundos\n", tempo_exec);
+    printf("Memória máxima usada: %zu MB\n", memoria_usada_MB());
+
     printf("\nCusto total mínimo: %.2f\n", custo_total);
 
     // Liberar memória
