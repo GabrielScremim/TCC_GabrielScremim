@@ -1,0 +1,17 @@
+\begin{table}[htbp]
+\centering
+\caption{Comparação de Desempenho: Python vs C}
+\label{tab:comparacao}
+\begin{tabular}{lrrrrr}
+\hline
+\textbf{Tamanho} & \textbf{Tempo Python (s)} & \textbf{Tempo C (s)} & \textbf{Speedup} & \textbf{Mem. Python (MB)} & \textbf{Mem. C (MB)} \\
+\hline
+50x50 & 9.0649 $\pm$ 1.1984 & 0.1179 $\pm$ 0.0148 & 76.89x & 5.44 & 2.00 \\
+60x60 & 18.0839 $\pm$ 0.7961 & 0.2673 $\pm$ 0.0490 & 67.65x & 7.02 & 3.00 \\
+70x70 & 42.3769 $\pm$ 5.6838 & 0.4219 $\pm$ 0.0236 & 100.44x & 10.73 & 5.00 \\
+80x80 & 61.8559 $\pm$ 4.1444 & 0.7437 $\pm$ 0.0246 & 83.17x & 18.05 & 8.00 \\
+90x90 & 87.8633 $\pm$ 12.7515 & 1.1777 $\pm$ 0.0600 & 74.61x & 27.62 & 11.00 \\
+100x100 & 86.0018 $\pm$ 37.1240 & 1.8023 $\pm$ 0.0895 & 47.72x & 38.62 & 16.00 \\
+\hline
+\end{tabular}
+\end{table}

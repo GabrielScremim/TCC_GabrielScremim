@@ -219,8 +219,8 @@ if __name__ == "__main__":
     inicio = time.time()
     
     # ALTERE AQUI O TAMANHO DO PROBLEMA
-    m = 20   # número de origens
-    n = 20   # número de destinos
+    m = 200   # número de origens
+    n = 200   # número de destinos
     
     print(f"\nGerando problema de transporte: {m}×{n}")
     
