@@ -1,0 +1,2900 @@
+[
+  {
+    "tamanho": "50x50",
+    "m": 50,
+    "n": 50,
+    "num_repeticoes": 10,
+    "bibliotecas": {
+      "manual": {
+        "nome": "Implementação Manual",
+        "execucoes": [
+          {
+            "execucao": 1,
+            "tempo_total": 2.5348410606384277,
+            "memoria_mb": 4.44921875,
+            "iteracoes": 140,
+            "custo_total": -9692577.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 2,
+            "tempo_total": 2.572240114212036,
+            "memoria_mb": 0.88671875,
+            "iteracoes": 142,
+            "custo_total": -9538008.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 3,
+            "tempo_total": 2.4820618629455566,
+            "memoria_mb": 1.55859375,
+            "iteracoes": 139,
+            "custo_total": -9627285.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 4,
+            "tempo_total": 2.660818099975586,
+            "memoria_mb": 0.9140625,
+            "iteracoes": 150,
+            "custo_total": -9702193.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 5,
+            "tempo_total": 2.5231478214263916,
+            "memoria_mb": 1.83984375,
+            "iteracoes": 142,
+            "custo_total": -9664506.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 6,
+            "tempo_total": 2.4071788787841797,
+            "memoria_mb": 0.1,
+            "iteracoes": 133,
+            "custo_total": -9682146.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 7,
+            "tempo_total": 2.6728873252868652,
+            "memoria_mb": 1.26171875,
+            "iteracoes": 142,
+            "custo_total": -9763409.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 8,
+            "tempo_total": 2.2103114128112793,
+            "memoria_mb": 0.1,
+            "iteracoes": 121,
+            "custo_total": -9693232.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 9,
+            "tempo_total": 2.534585475921631,
+            "memoria_mb": 0.8203125,
+            "iteracoes": 136,
+            "custo_total": -9731647.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 10,
+            "tempo_total": 2.470059633255005,
+            "memoria_mb": 1.76171875,
+            "iteracoes": 135,
+            "custo_total": -9731439.0,
+            "sucesso": true
+          }
+        ],
+        "estatisticas": {
+          "tempo_medio": 2.506813168525696,
+          "tempo_mediano": 2.5288666486740112,
+          "tempo_desvio": 0.13216414317610628,
+          "tempo_min": 2.2103114128112793,
+          "tempo_max": 2.6728873252868652,
+          "memoria_media": 1.36921875,
+          "iteracoes_media": 138,
+          "taxa_sucesso": 100.0
+        }
+      },
+      "scipy": {
+        "nome": "SciPy (linprog)",
+        "execucoes": [
+          {
+            "execucao": 1,
+            "tempo_total": 0.08845186233520508,
+            "memoria_mb": 3.15234375,
+            "iteracoes": 136,
+            "custo_total": 446925.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 2,
+            "tempo_total": 0.03686833381652832,
+            "memoria_mb": 0.265625,
+            "iteracoes": 135,
+            "custo_total": 376509.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 3,
+            "tempo_total": 0.04029512405395508,
+            "memoria_mb": 0.1,
+            "iteracoes": 123,
+            "custo_total": 352661.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 4,
+            "tempo_total": 0.03941035270690918,
+            "memoria_mb": 0.1,
+            "iteracoes": 133,
+            "custo_total": 374089.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 5,
+            "tempo_total": 0.037584543228149414,
+            "memoria_mb": 0.62890625,
+            "iteracoes": 133,
+            "custo_total": 410735.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 6,
+            "tempo_total": 0.03744673728942871,
+            "memoria_mb": 0.1,
+            "iteracoes": 134,
+            "custo_total": 468485.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 7,
+            "tempo_total": 0.0372462272644043,
+            "memoria_mb": 0.74609375,
+            "iteracoes": 134,
+            "custo_total": 452005.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 8,
+            "tempo_total": 0.04008603096008301,
+            "memoria_mb": 0.1,
+            "iteracoes": 127,
+            "custo_total": 419462.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 9,
+            "tempo_total": 0.03718304634094238,
+            "memoria_mb": 0.76171875,
+            "iteracoes": 134,
+            "custo_total": 440091.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 10,
+            "tempo_total": 0.037490129470825195,
+            "memoria_mb": 0.1,
+            "iteracoes": 135,
+            "custo_total": 400693.0,
+            "sucesso": true
+          }
+        ],
+        "estatisticas": {
+          "tempo_medio": 0.04320623874664307,
+          "tempo_mediano": 0.037537336349487305,
+          "tempo_desvio": 0.01594854342164498,
+          "tempo_min": 0.03686833381652832,
+          "tempo_max": 0.08845186233520508,
+          "memoria_media": 0.60546875,
+          "iteracoes_media": 132.4,
+          "taxa_sucesso": 100.0
+        }
+      },
+      "pulp": {
+        "nome": "PuLP",
+        "execucoes": [
+          {
+            "execucao": 1,
+            "tempo_total": 0.2928628921508789,
+            "memoria_mb": 1.921875,
+            "iteracoes": 0,
+            "custo_total": 446925.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 2,
+            "tempo_total": 0.09071087837219238,
+            "memoria_mb": 0.140625,
+            "iteracoes": 0,
+            "custo_total": 376509.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 3,
+            "tempo_total": 0.09234142303466797,
+            "memoria_mb": 0.1,
+            "iteracoes": 0,
+            "custo_total": 352661.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 4,
+            "tempo_total": 0.09228634834289551,
+            "memoria_mb": 0.1,
+            "iteracoes": 0,
+            "custo_total": 374089.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 5,
+            "tempo_total": 0.09507203102111816,
+            "memoria_mb": 0.16015625,
+            "iteracoes": 0,
+            "custo_total": 410735.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 6,
+            "tempo_total": 0.09906268119812012,
+            "memoria_mb": 0.33984375,
+            "iteracoes": 0,
+            "custo_total": 468485.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 7,
+            "tempo_total": 0.09420466423034668,
+            "memoria_mb": 0.1,
+            "iteracoes": 0,
+            "custo_total": 452005.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 8,
+            "tempo_total": 0.09259700775146484,
+            "memoria_mb": 0.1,
+            "iteracoes": 0,
+            "custo_total": 419462.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 9,
+            "tempo_total": 0.09449124336242676,
+            "memoria_mb": 0.1,
+            "iteracoes": 0,
+            "custo_total": 440091.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 10,
+            "tempo_total": 0.0943443775177002,
+            "memoria_mb": 0.1,
+            "iteracoes": 0,
+            "custo_total": 400693.0,
+            "sucesso": true
+          }
+        ],
+        "estatisticas": {
+          "tempo_medio": 0.11379735469818116,
+          "tempo_mediano": 0.09427452087402344,
+          "tempo_desvio": 0.06295744005704433,
+          "tempo_min": 0.09071087837219238,
+          "tempo_max": 0.2928628921508789,
+          "memoria_media": 0.31625000000000003,
+          "iteracoes_media": 0,
+          "taxa_sucesso": 100.0
+        }
+      },
+      "cvxpy": {
+        "nome": "CVXPY",
+        "execucoes": [
+          {
+            "execucao": 1,
+            "tempo_total": 0,
+            "memoria_mb": 0,
+            "iteracoes": 0,
+            "custo_total": 0,
+            "sucesso": false,
+            "erro": "The solver ECOS is not installed."
+          },
+          {
+            "execucao": 2,
+            "tempo_total": 0,
+            "memoria_mb": 0,
+            "iteracoes": 0,
+            "custo_total": 0,
+            "sucesso": false,
+            "erro": "The solver ECOS is not installed."
+          },
+          {
+            "execucao": 3,
+            "tempo_total": 0,
+            "memoria_mb": 0,
+            "iteracoes": 0,
+            "custo_total": 0,
+            "sucesso": false,
+            "erro": "The solver ECOS is not installed."
+          },
+          {
+            "execucao": 4,
+            "tempo_total": 0,
+            "memoria_mb": 0,
+            "iteracoes": 0,
+            "custo_total": 0,
+            "sucesso": false,
+            "erro": "The solver ECOS is not installed."
+          },
+          {
+            "execucao": 5,
+            "tempo_total": 0,
+            "memoria_mb": 0,
+            "iteracoes": 0,
+            "custo_total": 0,
+            "sucesso": false,
+            "erro": "The solver ECOS is not installed."
+          },
+          {
+            "execucao": 6,
+            "tempo_total": 0,
+            "memoria_mb": 0,
+            "iteracoes": 0,
+            "custo_total": 0,
+            "sucesso": false,
+            "erro": "The solver ECOS is not installed."
+          },
+          {
+            "execucao": 7,
+            "tempo_total": 0,
+            "memoria_mb": 0,
+            "iteracoes": 0,
+            "custo_total": 0,
+            "sucesso": false,
+            "erro": "The solver ECOS is not installed."
+          },
+          {
+            "execucao": 8,
+            "tempo_total": 0,
+            "memoria_mb": 0,
+            "iteracoes": 0,
+            "custo_total": 0,
+            "sucesso": false,
+            "erro": "The solver ECOS is not installed."
+          },
+          {
+            "execucao": 9,
+            "tempo_total": 0,
+            "memoria_mb": 0,
+            "iteracoes": 0,
+            "custo_total": 0,
+            "sucesso": false,
+            "erro": "The solver ECOS is not installed."
+          },
+          {
+            "execucao": 10,
+            "tempo_total": 0,
+            "memoria_mb": 0,
+            "iteracoes": 0,
+            "custo_total": 0,
+            "sucesso": false,
+            "erro": "The solver ECOS is not installed."
+          }
+        ]
+      },
+      "ortools": {
+        "nome": "OR-Tools",
+        "execucoes": [
+          {
+            "execucao": 1,
+            "tempo_total": 0.021708250045776367,
+            "memoria_mb": 1.8515625,
+            "iteracoes": 103,
+            "custo_total": 446925.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 2,
+            "tempo_total": 0.018472909927368164,
+            "memoria_mb": 0.1,
+            "iteracoes": 127,
+            "custo_total": 376509.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 3,
+            "tempo_total": 0.019311189651489258,
+            "memoria_mb": 0.1,
+            "iteracoes": 137,
+            "custo_total": 352661.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 4,
+            "tempo_total": 0.015336275100708008,
+            "memoria_mb": 0.1,
+            "iteracoes": 132,
+            "custo_total": 374089.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 5,
+            "tempo_total": 0.01790308952331543,
+            "memoria_mb": 0.1,
+            "iteracoes": 126,
+            "custo_total": 410735.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 6,
+            "tempo_total": 0.016063690185546875,
+            "memoria_mb": 0.1,
+            "iteracoes": 141,
+            "custo_total": 468485.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 7,
+            "tempo_total": 0.015966176986694336,
+            "memoria_mb": 0.1,
+            "iteracoes": 127,
+            "custo_total": 452005.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 8,
+            "tempo_total": 0.015212059020996094,
+            "memoria_mb": 0.1,
+            "iteracoes": 126,
+            "custo_total": 419462.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 9,
+            "tempo_total": 0.014482259750366211,
+            "memoria_mb": 0.1,
+            "iteracoes": 122,
+            "custo_total": 440091.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 10,
+            "tempo_total": 0.019304752349853516,
+            "memoria_mb": 0.1,
+            "iteracoes": 153,
+            "custo_total": 400693.0,
+            "sucesso": true
+          }
+        ],
+        "estatisticas": {
+          "tempo_medio": 0.017376065254211426,
+          "tempo_mediano": 0.016983389854431152,
+          "tempo_desvio": 0.0023247718793919328,
+          "tempo_min": 0.014482259750366211,
+          "tempo_max": 0.021708250045776367,
+          "memoria_media": 0.27515625,
+          "iteracoes_media": 129.4,
+          "taxa_sucesso": 100.0
+        }
+      }
+    }
+  },
+  {
+    "tamanho": "60x60",
+    "m": 60,
+    "n": 60,
+    "num_repeticoes": 10,
+    "bibliotecas": {
+      "manual": {
+        "nome": "Implementação Manual",
+        "execucoes": [
+          {
+            "execucao": 1,
+            "tempo_total": 5.181419849395752,
+            "memoria_mb": 0.375,
+            "iteracoes": 167,
+            "custo_total": -9762600.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 2,
+            "tempo_total": 4.945993185043335,
+            "memoria_mb": 1.71484375,
+            "iteracoes": 159,
+            "custo_total": -9696980.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 3,
+            "tempo_total": 5.5471556186676025,
+            "memoria_mb": 2.00390625,
+            "iteracoes": 173,
+            "custo_total": -9774807.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 4,
+            "tempo_total": 5.027768135070801,
+            "memoria_mb": 0.91015625,
+            "iteracoes": 157,
+            "custo_total": -9744733.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 5,
+            "tempo_total": 5.657294511795044,
+            "memoria_mb": 2.03515625,
+            "iteracoes": 178,
+            "custo_total": -9717580.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 6,
+            "tempo_total": 4.827239990234375,
+            "memoria_mb": 0.1,
+            "iteracoes": 154,
+            "custo_total": -9799347.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 7,
+            "tempo_total": 5.659326791763306,
+            "memoria_mb": 0.8125,
+            "iteracoes": 177,
+            "custo_total": -9804490.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 8,
+            "tempo_total": 5.748950719833374,
+            "memoria_mb": 0.1,
+            "iteracoes": 180,
+            "custo_total": -9699224.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 9,
+            "tempo_total": 5.382317543029785,
+            "memoria_mb": 1.9921875,
+            "iteracoes": 171,
+            "custo_total": -9760015.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 10,
+            "tempo_total": 4.746344327926636,
+            "memoria_mb": 2.82421875,
+            "iteracoes": 151,
+            "custo_total": -9774804.0,
+            "sucesso": true
+          }
+        ],
+        "estatisticas": {
+          "tempo_medio": 5.272381067276001,
+          "tempo_mediano": 5.2818686962127686,
+          "tempo_desvio": 0.374476639094334,
+          "tempo_min": 4.746344327926636,
+          "tempo_max": 5.748950719833374,
+          "memoria_media": 1.286796875,
+          "iteracoes_media": 166.7,
+          "taxa_sucesso": 100.0
+        }
+      },
+      "scipy": {
+        "nome": "SciPy (linprog)",
+        "execucoes": [
+          {
+            "execucao": 1,
+            "tempo_total": 0.057761192321777344,
+            "memoria_mb": 0.56640625,
+            "iteracoes": 152,
+            "custo_total": 405147.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 2,
+            "tempo_total": 0.057642459869384766,
+            "memoria_mb": 0.1,
+            "iteracoes": 165,
+            "custo_total": 424191.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 3,
+            "tempo_total": 0.0578005313873291,
+            "memoria_mb": 0.1,
+            "iteracoes": 172,
+            "custo_total": 327312.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 4,
+            "tempo_total": 0.055770158767700195,
+            "memoria_mb": 0.1,
+            "iteracoes": 164,
+            "custo_total": 357064.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 5,
+            "tempo_total": 0.05687069892883301,
+            "memoria_mb": 0.1,
+            "iteracoes": 169,
+            "custo_total": 384322.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 6,
+            "tempo_total": 0.058472633361816406,
+            "memoria_mb": 0.19140625,
+            "iteracoes": 178,
+            "custo_total": 395542.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 7,
+            "tempo_total": 0.05499148368835449,
+            "memoria_mb": 0.421875,
+            "iteracoes": 151,
+            "custo_total": 365223.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 8,
+            "tempo_total": 0.053700923919677734,
+            "memoria_mb": 0.1,
+            "iteracoes": 148,
+            "custo_total": 376343.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 9,
+            "tempo_total": 0.05481266975402832,
+            "memoria_mb": 0.1,
+            "iteracoes": 159,
+            "custo_total": 397712.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 10,
+            "tempo_total": 0.05766010284423828,
+            "memoria_mb": 0.1,
+            "iteracoes": 169,
+            "custo_total": 372483.0,
+            "sucesso": true
+          }
+        ],
+        "estatisticas": {
+          "tempo_medio": 0.05654828548431397,
+          "tempo_mediano": 0.05725657939910889,
+          "tempo_desvio": 0.001613437540353789,
+          "tempo_min": 0.053700923919677734,
+          "tempo_max": 0.058472633361816406,
+          "memoria_media": 0.18796875000000002,
+          "iteracoes_media": 162.7,
+          "taxa_sucesso": 100.0
+        }
+      },
+      "pulp": {
+        "nome": "PuLP",
+        "execucoes": [
+          {
+            "execucao": 1,
+            "tempo_total": 0.12125134468078613,
+            "memoria_mb": 0.171875,
+            "iteracoes": 0,
+            "custo_total": 405147.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 2,
+            "tempo_total": 0.1159522533416748,
+            "memoria_mb": 1.28515625,
+            "iteracoes": 0,
+            "custo_total": 424191.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 3,
+            "tempo_total": 0.1437845230102539,
+            "memoria_mb": 0.1,
+            "iteracoes": 0,
+            "custo_total": 327312.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 4,
+            "tempo_total": 0.11451959609985352,
+            "memoria_mb": 0.1,
+            "iteracoes": 0,
+            "custo_total": 357064.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 5,
+            "tempo_total": 0.1174764633178711,
+            "memoria_mb": 0.1,
+            "iteracoes": 0,
+            "custo_total": 384322.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 6,
+            "tempo_total": 0.14240360260009766,
+            "memoria_mb": 0.1,
+            "iteracoes": 0,
+            "custo_total": 395542.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 7,
+            "tempo_total": 0.131303071975708,
+            "memoria_mb": 0.1,
+            "iteracoes": 0,
+            "custo_total": 365223.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 8,
+            "tempo_total": 0.12895464897155762,
+            "memoria_mb": 2.80078125,
+            "iteracoes": 0,
+            "custo_total": 376343.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 9,
+            "tempo_total": 0.14617395401000977,
+            "memoria_mb": 0.1,
+            "iteracoes": 0,
+            "custo_total": 397712.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 10,
+            "tempo_total": 0.14389252662658691,
+            "memoria_mb": 0.1,
+            "iteracoes": 0,
+            "custo_total": 372483.0,
+            "sucesso": true
+          }
+        ],
+        "estatisticas": {
+          "tempo_medio": 0.13057119846343995,
+          "tempo_mediano": 0.1301288604736328,
+          "tempo_desvio": 0.012773016814889635,
+          "tempo_min": 0.11451959609985352,
+          "tempo_max": 0.14617395401000977,
+          "memoria_media": 0.49578125,
+          "iteracoes_media": 0,
+          "taxa_sucesso": 100.0
+        }
+      },
+      "cvxpy": {
+        "nome": "CVXPY",
+        "execucoes": [
+          {
+            "execucao": 1,
+            "tempo_total": 0,
+            "memoria_mb": 0,
+            "iteracoes": 0,
+            "custo_total": 0,
+            "sucesso": false,
+            "erro": "The solver ECOS is not installed."
+          },
+          {
+            "execucao": 2,
+            "tempo_total": 0,
+            "memoria_mb": 0,
+            "iteracoes": 0,
+            "custo_total": 0,
+            "sucesso": false,
+            "erro": "The solver ECOS is not installed."
+          },
+          {
+            "execucao": 3,
+            "tempo_total": 0,
+            "memoria_mb": 0,
+            "iteracoes": 0,
+            "custo_total": 0,
+            "sucesso": false,
+            "erro": "The solver ECOS is not installed."
+          },
+          {
+            "execucao": 4,
+            "tempo_total": 0,
+            "memoria_mb": 0,
+            "iteracoes": 0,
+            "custo_total": 0,
+            "sucesso": false,
+            "erro": "The solver ECOS is not installed."
+          },
+          {
+            "execucao": 5,
+            "tempo_total": 0,
+            "memoria_mb": 0,
+            "iteracoes": 0,
+            "custo_total": 0,
+            "sucesso": false,
+            "erro": "The solver ECOS is not installed."
+          },
+          {
+            "execucao": 6,
+            "tempo_total": 0,
+            "memoria_mb": 0,
+            "iteracoes": 0,
+            "custo_total": 0,
+            "sucesso": false,
+            "erro": "The solver ECOS is not installed."
+          },
+          {
+            "execucao": 7,
+            "tempo_total": 0,
+            "memoria_mb": 0,
+            "iteracoes": 0,
+            "custo_total": 0,
+            "sucesso": false,
+            "erro": "The solver ECOS is not installed."
+          },
+          {
+            "execucao": 8,
+            "tempo_total": 0,
+            "memoria_mb": 0,
+            "iteracoes": 0,
+            "custo_total": 0,
+            "sucesso": false,
+            "erro": "The solver ECOS is not installed."
+          },
+          {
+            "execucao": 9,
+            "tempo_total": 0,
+            "memoria_mb": 0,
+            "iteracoes": 0,
+            "custo_total": 0,
+            "sucesso": false,
+            "erro": "The solver ECOS is not installed."
+          },
+          {
+            "execucao": 10,
+            "tempo_total": 0,
+            "memoria_mb": 0,
+            "iteracoes": 0,
+            "custo_total": 0,
+            "sucesso": false,
+            "erro": "The solver ECOS is not installed."
+          }
+        ]
+      },
+      "ortools": {
+        "nome": "OR-Tools",
+        "execucoes": [
+          {
+            "execucao": 1,
+            "tempo_total": 0.027280092239379883,
+            "memoria_mb": 0.1,
+            "iteracoes": 179,
+            "custo_total": 405147.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 2,
+            "tempo_total": 0.025696516036987305,
+            "memoria_mb": 0.1,
+            "iteracoes": 181,
+            "custo_total": 424191.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 3,
+            "tempo_total": 0.02771306037902832,
+            "memoria_mb": 0.1,
+            "iteracoes": 191,
+            "custo_total": 327312.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 4,
+            "tempo_total": 0.0240628719329834,
+            "memoria_mb": 0.1,
+            "iteracoes": 169,
+            "custo_total": 357064.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 5,
+            "tempo_total": 0.023468732833862305,
+            "memoria_mb": 0.1,
+            "iteracoes": 163,
+            "custo_total": 384322.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 6,
+            "tempo_total": 0.02283763885498047,
+            "memoria_mb": 0.1,
+            "iteracoes": 147,
+            "custo_total": 395542.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 7,
+            "tempo_total": 0.027460575103759766,
+            "memoria_mb": 0.1,
+            "iteracoes": 173,
+            "custo_total": 365223.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 8,
+            "tempo_total": 0.022078514099121094,
+            "memoria_mb": 0.1,
+            "iteracoes": 151,
+            "custo_total": 376343.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 9,
+            "tempo_total": 0.023689985275268555,
+            "memoria_mb": 0.1,
+            "iteracoes": 167,
+            "custo_total": 397712.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 10,
+            "tempo_total": 0.02534174919128418,
+            "memoria_mb": 0.1,
+            "iteracoes": 192,
+            "custo_total": 372483.0,
+            "sucesso": true
+          }
+        ],
+        "estatisticas": {
+          "tempo_medio": 0.024962973594665528,
+          "tempo_mediano": 0.02470231056213379,
+          "tempo_desvio": 0.0020372142458595886,
+          "tempo_min": 0.022078514099121094,
+          "tempo_max": 0.02771306037902832,
+          "memoria_media": 0.1,
+          "iteracoes_media": 171.3,
+          "taxa_sucesso": 100.0
+        }
+      }
+    }
+  },
+  {
+    "tamanho": "70x70",
+    "m": 70,
+    "n": 70,
+    "num_repeticoes": 10,
+    "bibliotecas": {
+      "manual": {
+        "nome": "Implementação Manual",
+        "execucoes": [
+          {
+            "execucao": 1,
+            "tempo_total": 12.676753997802734,
+            "memoria_mb": 0.53125,
+            "iteracoes": 207,
+            "custo_total": -9827285.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 2,
+            "tempo_total": 10.4375159740448,
+            "memoria_mb": 0.86328125,
+            "iteracoes": 207,
+            "custo_total": -9739474.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 3,
+            "tempo_total": 10.411201000213623,
+            "memoria_mb": 0.33203125,
+            "iteracoes": 207,
+            "custo_total": -9744497.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 4,
+            "tempo_total": 12.939337730407715,
+            "memoria_mb": 0.1,
+            "iteracoes": 211,
+            "custo_total": -9756160.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 5,
+            "tempo_total": 9.941299200057983,
+            "memoria_mb": 1.82421875,
+            "iteracoes": 199,
+            "custo_total": -9780757.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 6,
+            "tempo_total": 10.333495378494263,
+            "memoria_mb": 1.30078125,
+            "iteracoes": 204,
+            "custo_total": -9840463.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 7,
+            "tempo_total": 12.517261981964111,
+            "memoria_mb": 0.1,
+            "iteracoes": 202,
+            "custo_total": -9795008.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 8,
+            "tempo_total": 10.867110013961792,
+            "memoria_mb": 1.12109375,
+            "iteracoes": 214,
+            "custo_total": -9734586.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 9,
+            "tempo_total": 10.291213989257812,
+            "memoria_mb": 0.9609375,
+            "iteracoes": 203,
+            "custo_total": -9755864.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 10,
+            "tempo_total": 9.292823314666748,
+            "memoria_mb": 1.99609375,
+            "iteracoes": 183,
+            "custo_total": -9817368.0,
+            "sucesso": true
+          }
+        ],
+        "estatisticas": {
+          "tempo_medio": 10.970801258087159,
+          "tempo_mediano": 10.424358487129211,
+          "tempo_desvio": 1.2705524164534017,
+          "tempo_min": 9.292823314666748,
+          "tempo_max": 12.939337730407715,
+          "memoria_media": 0.91296875,
+          "iteracoes_media": 203.7,
+          "taxa_sucesso": 100.0
+        }
+      },
+      "scipy": {
+        "nome": "SciPy (linprog)",
+        "execucoes": [
+          {
+            "execucao": 1,
+            "tempo_total": 0.08549261093139648,
+            "memoria_mb": 0.1,
+            "iteracoes": 191,
+            "custo_total": 371461.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 2,
+            "tempo_total": 0.07897400856018066,
+            "memoria_mb": 0.10546875,
+            "iteracoes": 184,
+            "custo_total": 346743.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 3,
+            "tempo_total": 0.08437037467956543,
+            "memoria_mb": 0.1,
+            "iteracoes": 184,
+            "custo_total": 251401.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 4,
+            "tempo_total": 0.08676838874816895,
+            "memoria_mb": 0.1,
+            "iteracoes": 171,
+            "custo_total": 324660.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 5,
+            "tempo_total": 0.08786463737487793,
+            "memoria_mb": 0.1,
+            "iteracoes": 174,
+            "custo_total": 337459.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 6,
+            "tempo_total": 0.08107423782348633,
+            "memoria_mb": 0.1,
+            "iteracoes": 193,
+            "custo_total": 342196.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 7,
+            "tempo_total": 0.0779428482055664,
+            "memoria_mb": 0.1,
+            "iteracoes": 182,
+            "custo_total": 331119.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 8,
+            "tempo_total": 0.0787971019744873,
+            "memoria_mb": 0.1,
+            "iteracoes": 188,
+            "custo_total": 346746.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 9,
+            "tempo_total": 0.08146953582763672,
+            "memoria_mb": 0.1,
+            "iteracoes": 181,
+            "custo_total": 286869.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 10,
+            "tempo_total": 0.07909345626831055,
+            "memoria_mb": 0.2109375,
+            "iteracoes": 180,
+            "custo_total": 307382.0,
+            "sucesso": true
+          }
+        ],
+        "estatisticas": {
+          "tempo_medio": 0.08218472003936768,
+          "tempo_mediano": 0.08127188682556152,
+          "tempo_desvio": 0.0036525391480340366,
+          "tempo_min": 0.0779428482055664,
+          "tempo_max": 0.08786463737487793,
+          "memoria_media": 0.11164062500000001,
+          "iteracoes_media": 182.8,
+          "taxa_sucesso": 100.0
+        }
+      },
+      "pulp": {
+        "nome": "PuLP",
+        "execucoes": [
+          {
+            "execucao": 1,
+            "tempo_total": 0.15543413162231445,
+            "memoria_mb": 2.94140625,
+            "iteracoes": 0,
+            "custo_total": 371461.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 2,
+            "tempo_total": 0.13716888427734375,
+            "memoria_mb": 0.1796875,
+            "iteracoes": 0,
+            "custo_total": 346743.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 3,
+            "tempo_total": 0.14212584495544434,
+            "memoria_mb": 0.1,
+            "iteracoes": 0,
+            "custo_total": 251401.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 4,
+            "tempo_total": 0.13737082481384277,
+            "memoria_mb": 2.78125,
+            "iteracoes": 0,
+            "custo_total": 324660.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 5,
+            "tempo_total": 0.14403963088989258,
+            "memoria_mb": 0.47265625,
+            "iteracoes": 0,
+            "custo_total": 337459.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 6,
+            "tempo_total": 0.137678861618042,
+            "memoria_mb": 0.1,
+            "iteracoes": 0,
+            "custo_total": 342196.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 7,
+            "tempo_total": 0.13603925704956055,
+            "memoria_mb": 0.1,
+            "iteracoes": 0,
+            "custo_total": 331119.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 8,
+            "tempo_total": 0.13529658317565918,
+            "memoria_mb": 3.25390625,
+            "iteracoes": 0,
+            "custo_total": 346746.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 9,
+            "tempo_total": 0.13583803176879883,
+            "memoria_mb": 0.1,
+            "iteracoes": 0,
+            "custo_total": 286869.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 10,
+            "tempo_total": 0.13687372207641602,
+            "memoria_mb": 0.1,
+            "iteracoes": 0,
+            "custo_total": 307382.0,
+            "sucesso": true
+          }
+        ],
+        "estatisticas": {
+          "tempo_medio": 0.13978657722473145,
+          "tempo_mediano": 0.13726985454559326,
+          "tempo_desvio": 0.006180753551368559,
+          "tempo_min": 0.13529658317565918,
+          "tempo_max": 0.15543413162231445,
+          "memoria_media": 1.012890625,
+          "iteracoes_media": 0,
+          "taxa_sucesso": 100.0
+        }
+      },
+      "cvxpy": {
+        "nome": "CVXPY",
+        "execucoes": [
+          {
+            "execucao": 1,
+            "tempo_total": 0,
+            "memoria_mb": 0,
+            "iteracoes": 0,
+            "custo_total": 0,
+            "sucesso": false,
+            "erro": "The solver ECOS is not installed."
+          },
+          {
+            "execucao": 2,
+            "tempo_total": 0,
+            "memoria_mb": 0,
+            "iteracoes": 0,
+            "custo_total": 0,
+            "sucesso": false,
+            "erro": "The solver ECOS is not installed."
+          },
+          {
+            "execucao": 3,
+            "tempo_total": 0,
+            "memoria_mb": 0,
+            "iteracoes": 0,
+            "custo_total": 0,
+            "sucesso": false,
+            "erro": "The solver ECOS is not installed."
+          },
+          {
+            "execucao": 4,
+            "tempo_total": 0,
+            "memoria_mb": 0,
+            "iteracoes": 0,
+            "custo_total": 0,
+            "sucesso": false,
+            "erro": "The solver ECOS is not installed."
+          },
+          {
+            "execucao": 5,
+            "tempo_total": 0,
+            "memoria_mb": 0,
+            "iteracoes": 0,
+            "custo_total": 0,
+            "sucesso": false,
+            "erro": "The solver ECOS is not installed."
+          },
+          {
+            "execucao": 6,
+            "tempo_total": 0,
+            "memoria_mb": 0,
+            "iteracoes": 0,
+            "custo_total": 0,
+            "sucesso": false,
+            "erro": "The solver ECOS is not installed."
+          },
+          {
+            "execucao": 7,
+            "tempo_total": 0,
+            "memoria_mb": 0,
+            "iteracoes": 0,
+            "custo_total": 0,
+            "sucesso": false,
+            "erro": "The solver ECOS is not installed."
+          },
+          {
+            "execucao": 8,
+            "tempo_total": 0,
+            "memoria_mb": 0,
+            "iteracoes": 0,
+            "custo_total": 0,
+            "sucesso": false,
+            "erro": "The solver ECOS is not installed."
+          },
+          {
+            "execucao": 9,
+            "tempo_total": 0,
+            "memoria_mb": 0,
+            "iteracoes": 0,
+            "custo_total": 0,
+            "sucesso": false,
+            "erro": "The solver ECOS is not installed."
+          },
+          {
+            "execucao": 10,
+            "tempo_total": 0,
+            "memoria_mb": 0,
+            "iteracoes": 0,
+            "custo_total": 0,
+            "sucesso": false,
+            "erro": "The solver ECOS is not installed."
+          }
+        ]
+      },
+      "ortools": {
+        "nome": "OR-Tools",
+        "execucoes": [
+          {
+            "execucao": 1,
+            "tempo_total": 0.03564310073852539,
+            "memoria_mb": 0.1,
+            "iteracoes": 197,
+            "custo_total": 371461.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 2,
+            "tempo_total": 0.031136751174926758,
+            "memoria_mb": 0.1,
+            "iteracoes": 174,
+            "custo_total": 346743.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 3,
+            "tempo_total": 0.029626846313476562,
+            "memoria_mb": 0.1,
+            "iteracoes": 175,
+            "custo_total": 251401.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 4,
+            "tempo_total": 0.032425880432128906,
+            "memoria_mb": 0.1,
+            "iteracoes": 208,
+            "custo_total": 324660.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 5,
+            "tempo_total": 0.03246641159057617,
+            "memoria_mb": 0.1,
+            "iteracoes": 215,
+            "custo_total": 337459.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 6,
+            "tempo_total": 0.034357547760009766,
+            "memoria_mb": 0.1,
+            "iteracoes": 193,
+            "custo_total": 342196.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 7,
+            "tempo_total": 0.034885406494140625,
+            "memoria_mb": 0.1,
+            "iteracoes": 181,
+            "custo_total": 331119.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 8,
+            "tempo_total": 0.0343780517578125,
+            "memoria_mb": 0.1,
+            "iteracoes": 208,
+            "custo_total": 346746.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 9,
+            "tempo_total": 0.03615880012512207,
+            "memoria_mb": 0.1,
+            "iteracoes": 179,
+            "custo_total": 286869.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 10,
+            "tempo_total": 0.03219914436340332,
+            "memoria_mb": 0.1,
+            "iteracoes": 214,
+            "custo_total": 307382.0,
+            "sucesso": true
+          }
+        ],
+        "estatisticas": {
+          "tempo_medio": 0.033327794075012206,
+          "tempo_mediano": 0.03341197967529297,
+          "tempo_desvio": 0.0020894388401619273,
+          "tempo_min": 0.029626846313476562,
+          "tempo_max": 0.03615880012512207,
+          "memoria_media": 0.1,
+          "iteracoes_media": 194.4,
+          "taxa_sucesso": 100.0
+        }
+      }
+    }
+  },
+  {
+    "tamanho": "80x80",
+    "m": 80,
+    "n": 80,
+    "num_repeticoes": 10,
+    "bibliotecas": {
+      "manual": {
+        "nome": "Implementação Manual",
+        "execucoes": [
+          {
+            "execucao": 1,
+            "tempo_total": 17.539523124694824,
+            "memoria_mb": 2.84765625,
+            "iteracoes": 237,
+            "custo_total": -9828549.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 2,
+            "tempo_total": 22.73764443397522,
+            "memoria_mb": 2.0,
+            "iteracoes": 246,
+            "custo_total": -9782065.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 3,
+            "tempo_total": 20.054583311080933,
+            "memoria_mb": 1.0625,
+            "iteracoes": 243,
+            "custo_total": -9821428.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 4,
+            "tempo_total": 17.570558309555054,
+            "memoria_mb": 1.00390625,
+            "iteracoes": 237,
+            "custo_total": -9807471.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 5,
+            "tempo_total": 18.067570209503174,
+            "memoria_mb": 2.265625,
+            "iteracoes": 241,
+            "custo_total": -9843162.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 6,
+            "tempo_total": 16.471747398376465,
+            "memoria_mb": 2.0546875,
+            "iteracoes": 222,
+            "custo_total": -9818220.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 7,
+            "tempo_total": 22.432108879089355,
+            "memoria_mb": 2.00390625,
+            "iteracoes": 270,
+            "custo_total": -9837753.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 8,
+            "tempo_total": 21.85609221458435,
+            "memoria_mb": 0.94140625,
+            "iteracoes": 231,
+            "custo_total": -9802208.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 9,
+            "tempo_total": 20.064542531967163,
+            "memoria_mb": 1.05859375,
+            "iteracoes": 241,
+            "custo_total": -9788218.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 10,
+            "tempo_total": 17.885681867599487,
+            "memoria_mb": 1.9375,
+            "iteracoes": 240,
+            "custo_total": -9852284.0,
+            "sucesso": true
+          }
+        ],
+        "estatisticas": {
+          "tempo_medio": 19.468005228042603,
+          "tempo_mediano": 19.061076760292053,
+          "tempo_desvio": 2.276479141136999,
+          "tempo_min": 16.471747398376465,
+          "tempo_max": 22.73764443397522,
+          "memoria_media": 1.717578125,
+          "iteracoes_media": 240.8,
+          "taxa_sucesso": 100.0
+        }
+      },
+      "scipy": {
+        "nome": "SciPy (linprog)",
+        "execucoes": [
+          {
+            "execucao": 1,
+            "tempo_total": 0.1142418384552002,
+            "memoria_mb": 0.1,
+            "iteracoes": 203,
+            "custo_total": 287941.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 2,
+            "tempo_total": 0.10807466506958008,
+            "memoria_mb": 0.41015625,
+            "iteracoes": 206,
+            "custo_total": 299272.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 3,
+            "tempo_total": 0.1063089370727539,
+            "memoria_mb": 0.1,
+            "iteracoes": 216,
+            "custo_total": 258845.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 4,
+            "tempo_total": 0.11127257347106934,
+            "memoria_mb": 0.1,
+            "iteracoes": 219,
+            "custo_total": 285904.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 5,
+            "tempo_total": 0.10761523246765137,
+            "memoria_mb": 0.1,
+            "iteracoes": 245,
+            "custo_total": 320209.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 6,
+            "tempo_total": 0.1042020320892334,
+            "memoria_mb": 0.1,
+            "iteracoes": 200,
+            "custo_total": 281295.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 7,
+            "tempo_total": 0.1094045639038086,
+            "memoria_mb": 0.2734375,
+            "iteracoes": 198,
+            "custo_total": 275808.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 8,
+            "tempo_total": 0.1118016242980957,
+            "memoria_mb": 0.30859375,
+            "iteracoes": 209,
+            "custo_total": 297165.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 9,
+            "tempo_total": 0.10567283630371094,
+            "memoria_mb": 0.1,
+            "iteracoes": 209,
+            "custo_total": 268351.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 10,
+            "tempo_total": 0.10445356369018555,
+            "memoria_mb": 0.15234375,
+            "iteracoes": 204,
+            "custo_total": 249150.0,
+            "sucesso": true
+          }
+        ],
+        "estatisticas": {
+          "tempo_medio": 0.10830478668212891,
+          "tempo_mediano": 0.10784494876861572,
+          "tempo_desvio": 0.00334327282502017,
+          "tempo_min": 0.1042020320892334,
+          "tempo_max": 0.1142418384552002,
+          "memoria_media": 0.17445312500000001,
+          "iteracoes_media": 210.9,
+          "taxa_sucesso": 100.0
+        }
+      },
+      "pulp": {
+        "nome": "PuLP",
+        "execucoes": [
+          {
+            "execucao": 1,
+            "tempo_total": 0.17574596405029297,
+            "memoria_mb": 4.26953125,
+            "iteracoes": 0,
+            "custo_total": 287941.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 2,
+            "tempo_total": 0.16978931427001953,
+            "memoria_mb": 0.1,
+            "iteracoes": 0,
+            "custo_total": 299272.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 3,
+            "tempo_total": 0.16472506523132324,
+            "memoria_mb": 0.1,
+            "iteracoes": 0,
+            "custo_total": 258845.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 4,
+            "tempo_total": 0.1603233814239502,
+            "memoria_mb": 0.1,
+            "iteracoes": 0,
+            "custo_total": 285904.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 5,
+            "tempo_total": 0.16304802894592285,
+            "memoria_mb": 0.1,
+            "iteracoes": 0,
+            "custo_total": 320209.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 6,
+            "tempo_total": 0.16855216026306152,
+            "memoria_mb": 0.1,
+            "iteracoes": 0,
+            "custo_total": 281295.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 7,
+            "tempo_total": 0.16195225715637207,
+            "memoria_mb": 0.1,
+            "iteracoes": 0,
+            "custo_total": 275808.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 8,
+            "tempo_total": 0.16036391258239746,
+            "memoria_mb": 0.1,
+            "iteracoes": 0,
+            "custo_total": 297165.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 9,
+            "tempo_total": 0.17728543281555176,
+            "memoria_mb": 0.1,
+            "iteracoes": 0,
+            "custo_total": 268351.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 10,
+            "tempo_total": 0.1681051254272461,
+            "memoria_mb": 0.1,
+            "iteracoes": 0,
+            "custo_total": 249150.0,
+            "sucesso": true
+          }
+        ],
+        "estatisticas": {
+          "tempo_medio": 0.16698906421661378,
+          "tempo_mediano": 0.16641509532928467,
+          "tempo_desvio": 0.006042254916661513,
+          "tempo_min": 0.1603233814239502,
+          "tempo_max": 0.17728543281555176,
+          "memoria_media": 0.516953125,
+          "iteracoes_media": 0,
+          "taxa_sucesso": 100.0
+        }
+      },
+      "cvxpy": {
+        "nome": "CVXPY",
+        "execucoes": [
+          {
+            "execucao": 1,
+            "tempo_total": 0,
+            "memoria_mb": 0,
+            "iteracoes": 0,
+            "custo_total": 0,
+            "sucesso": false,
+            "erro": "The solver ECOS is not installed."
+          },
+          {
+            "execucao": 2,
+            "tempo_total": 0,
+            "memoria_mb": 0,
+            "iteracoes": 0,
+            "custo_total": 0,
+            "sucesso": false,
+            "erro": "The solver ECOS is not installed."
+          },
+          {
+            "execucao": 3,
+            "tempo_total": 0,
+            "memoria_mb": 0,
+            "iteracoes": 0,
+            "custo_total": 0,
+            "sucesso": false,
+            "erro": "The solver ECOS is not installed."
+          },
+          {
+            "execucao": 4,
+            "tempo_total": 0,
+            "memoria_mb": 0,
+            "iteracoes": 0,
+            "custo_total": 0,
+            "sucesso": false,
+            "erro": "The solver ECOS is not installed."
+          },
+          {
+            "execucao": 5,
+            "tempo_total": 0,
+            "memoria_mb": 0,
+            "iteracoes": 0,
+            "custo_total": 0,
+            "sucesso": false,
+            "erro": "The solver ECOS is not installed."
+          },
+          {
+            "execucao": 6,
+            "tempo_total": 0,
+            "memoria_mb": 0,
+            "iteracoes": 0,
+            "custo_total": 0,
+            "sucesso": false,
+            "erro": "The solver ECOS is not installed."
+          },
+          {
+            "execucao": 7,
+            "tempo_total": 0,
+            "memoria_mb": 0,
+            "iteracoes": 0,
+            "custo_total": 0,
+            "sucesso": false,
+            "erro": "The solver ECOS is not installed."
+          },
+          {
+            "execucao": 8,
+            "tempo_total": 0,
+            "memoria_mb": 0,
+            "iteracoes": 0,
+            "custo_total": 0,
+            "sucesso": false,
+            "erro": "The solver ECOS is not installed."
+          },
+          {
+            "execucao": 9,
+            "tempo_total": 0,
+            "memoria_mb": 0,
+            "iteracoes": 0,
+            "custo_total": 0,
+            "sucesso": false,
+            "erro": "The solver ECOS is not installed."
+          },
+          {
+            "execucao": 10,
+            "tempo_total": 0,
+            "memoria_mb": 0,
+            "iteracoes": 0,
+            "custo_total": 0,
+            "sucesso": false,
+            "erro": "The solver ECOS is not installed."
+          }
+        ]
+      },
+      "ortools": {
+        "nome": "OR-Tools",
+        "execucoes": [
+          {
+            "execucao": 1,
+            "tempo_total": 0.0426483154296875,
+            "memoria_mb": 0.1,
+            "iteracoes": 213,
+            "custo_total": 287941.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 2,
+            "tempo_total": 0.04334545135498047,
+            "memoria_mb": 3.45703125,
+            "iteracoes": 242,
+            "custo_total": 299272.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 3,
+            "tempo_total": 0.04105091094970703,
+            "memoria_mb": 0.1,
+            "iteracoes": 245,
+            "custo_total": 258845.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 4,
+            "tempo_total": 0.03992176055908203,
+            "memoria_mb": 2.796875,
+            "iteracoes": 226,
+            "custo_total": 285904.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 5,
+            "tempo_total": 0.04262065887451172,
+            "memoria_mb": 0.1,
+            "iteracoes": 251,
+            "custo_total": 320209.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 6,
+            "tempo_total": 0.04032421112060547,
+            "memoria_mb": 2.58203125,
+            "iteracoes": 219,
+            "custo_total": 281295.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 7,
+            "tempo_total": 0.04025912284851074,
+            "memoria_mb": 1.02734375,
+            "iteracoes": 215,
+            "custo_total": 275808.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 8,
+            "tempo_total": 0.038973093032836914,
+            "memoria_mb": 0.1,
+            "iteracoes": 218,
+            "custo_total": 297165.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 9,
+            "tempo_total": 0.03921914100646973,
+            "memoria_mb": 3.5390625,
+            "iteracoes": 223,
+            "custo_total": 268351.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 10,
+            "tempo_total": 0.041123151779174805,
+            "memoria_mb": 0.1,
+            "iteracoes": 236,
+            "custo_total": 249150.0,
+            "sucesso": true
+          }
+        ],
+        "estatisticas": {
+          "tempo_medio": 0.04094858169555664,
+          "tempo_mediano": 0.04068756103515625,
+          "tempo_desvio": 0.0015012565600001017,
+          "tempo_min": 0.038973093032836914,
+          "tempo_max": 0.04334545135498047,
+          "memoria_media": 1.390234375,
+          "iteracoes_media": 228.8,
+          "taxa_sucesso": 100.0
+        }
+      }
+    }
+  },
+  {
+    "tamanho": "90x90",
+    "m": 90,
+    "n": 90,
+    "num_repeticoes": 10,
+    "bibliotecas": {
+      "manual": {
+        "nome": "Implementação Manual",
+        "execucoes": [
+          {
+            "execucao": 1,
+            "tempo_total": 32.44420099258423,
+            "memoria_mb": 1.2265625,
+            "iteracoes": 289,
+            "custo_total": -9856503.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 2,
+            "tempo_total": 31.572221755981445,
+            "memoria_mb": 1.92578125,
+            "iteracoes": 279,
+            "custo_total": -9811651.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 3,
+            "tempo_total": 32.847862005233765,
+            "memoria_mb": 2.33203125,
+            "iteracoes": 263,
+            "custo_total": -9839108.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 4,
+            "tempo_total": 29.30594038963318,
+            "memoria_mb": 1.94921875,
+            "iteracoes": 272,
+            "custo_total": -9853511.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 5,
+            "tempo_total": 41.61051154136658,
+            "memoria_mb": 1.67578125,
+            "iteracoes": 316,
+            "custo_total": -9813001.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 6,
+            "tempo_total": 28.962056398391724,
+            "memoria_mb": 2.0390625,
+            "iteracoes": 276,
+            "custo_total": -9839368.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 7,
+            "tempo_total": 34.97426128387451,
+            "memoria_mb": 2.0,
+            "iteracoes": 268,
+            "custo_total": -9840031.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 8,
+            "tempo_total": 27.555873155593872,
+            "memoria_mb": 2.2578125,
+            "iteracoes": 239,
+            "custo_total": -9862331.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 9,
+            "tempo_total": 29.451449155807495,
+            "memoria_mb": 1.73046875,
+            "iteracoes": 250,
+            "custo_total": -9865441.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 10,
+            "tempo_total": 32.42012572288513,
+            "memoria_mb": 0.953125,
+            "iteracoes": 275,
+            "custo_total": -9836492.0,
+            "sucesso": true
+          }
+        ],
+        "estatisticas": {
+          "tempo_medio": 32.11445024013519,
+          "tempo_mediano": 31.99617373943329,
+          "tempo_desvio": 4.015045196549407,
+          "tempo_min": 27.555873155593872,
+          "tempo_max": 41.61051154136658,
+          "memoria_media": 1.808984375,
+          "iteracoes_media": 272.7,
+          "taxa_sucesso": 100.0
+        }
+      },
+      "scipy": {
+        "nome": "SciPy (linprog)",
+        "execucoes": [
+          {
+            "execucao": 1,
+            "tempo_total": 0.16267728805541992,
+            "memoria_mb": 0.8203125,
+            "iteracoes": 246,
+            "custo_total": 297480.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 2,
+            "tempo_total": 0.16554546356201172,
+            "memoria_mb": 0.1,
+            "iteracoes": 235,
+            "custo_total": 299973.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 3,
+            "tempo_total": 0.14458656311035156,
+            "memoria_mb": 0.1,
+            "iteracoes": 241,
+            "custo_total": 239573.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 4,
+            "tempo_total": 0.14014196395874023,
+            "memoria_mb": 8.14453125,
+            "iteracoes": 235,
+            "custo_total": 263289.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 5,
+            "tempo_total": 0.14173531532287598,
+            "memoria_mb": 0.1,
+            "iteracoes": 257,
+            "custo_total": 287842.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 6,
+            "tempo_total": 0.14510560035705566,
+            "memoria_mb": 1.5390625,
+            "iteracoes": 236,
+            "custo_total": 277674.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 7,
+            "tempo_total": 0.14075112342834473,
+            "memoria_mb": 0.1,
+            "iteracoes": 228,
+            "custo_total": 271311.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 8,
+            "tempo_total": 0.14354252815246582,
+            "memoria_mb": 0.1953125,
+            "iteracoes": 255,
+            "custo_total": 274711.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 9,
+            "tempo_total": 0.14078736305236816,
+            "memoria_mb": 0.1,
+            "iteracoes": 249,
+            "custo_total": 266348.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 10,
+            "tempo_total": 0.14098167419433594,
+            "memoria_mb": 0.30078125,
+            "iteracoes": 239,
+            "custo_total": 243686.0,
+            "sucesso": true
+          }
+        ],
+        "estatisticas": {
+          "tempo_medio": 0.14658548831939697,
+          "tempo_mediano": 0.1426389217376709,
+          "tempo_desvio": 0.009416156589251233,
+          "tempo_min": 0.14014196395874023,
+          "tempo_max": 0.16554546356201172,
+          "memoria_media": 1.15,
+          "iteracoes_media": 242.1,
+          "taxa_sucesso": 100.0
+        }
+      },
+      "pulp": {
+        "nome": "PuLP",
+        "execucoes": [
+          {
+            "execucao": 1,
+            "tempo_total": 0.20456194877624512,
+            "memoria_mb": 1.98828125,
+            "iteracoes": 0,
+            "custo_total": 297480.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 2,
+            "tempo_total": 0.20000147819519043,
+            "memoria_mb": 0.1,
+            "iteracoes": 0,
+            "custo_total": 299973.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 3,
+            "tempo_total": 0.2006542682647705,
+            "memoria_mb": 0.1,
+            "iteracoes": 0,
+            "custo_total": 239573.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 4,
+            "tempo_total": 0.19902873039245605,
+            "memoria_mb": 0.1,
+            "iteracoes": 0,
+            "custo_total": 263289.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 5,
+            "tempo_total": 0.19612479209899902,
+            "memoria_mb": 0.1,
+            "iteracoes": 0,
+            "custo_total": 287842.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 6,
+            "tempo_total": 0.19774603843688965,
+            "memoria_mb": 0.1,
+            "iteracoes": 0,
+            "custo_total": 277674.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 7,
+            "tempo_total": 0.19837284088134766,
+            "memoria_mb": 0.1,
+            "iteracoes": 0,
+            "custo_total": 271311.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 8,
+            "tempo_total": 0.20030713081359863,
+            "memoria_mb": 0.1,
+            "iteracoes": 0,
+            "custo_total": 274711.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 9,
+            "tempo_total": 0.19892334938049316,
+            "memoria_mb": 0.1,
+            "iteracoes": 0,
+            "custo_total": 266348.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 10,
+            "tempo_total": 0.2002856731414795,
+            "memoria_mb": 0.1,
+            "iteracoes": 0,
+            "custo_total": 243686.0,
+            "sucesso": true
+          }
+        ],
+        "estatisticas": {
+          "tempo_medio": 0.19960062503814696,
+          "tempo_mediano": 0.19951510429382324,
+          "tempo_desvio": 0.002227807783242939,
+          "tempo_min": 0.19612479209899902,
+          "tempo_max": 0.20456194877624512,
+          "memoria_media": 0.288828125,
+          "iteracoes_media": 0,
+          "taxa_sucesso": 100.0
+        }
+      },
+      "cvxpy": {
+        "nome": "CVXPY",
+        "execucoes": [
+          {
+            "execucao": 1,
+            "tempo_total": 0,
+            "memoria_mb": 0,
+            "iteracoes": 0,
+            "custo_total": 0,
+            "sucesso": false,
+            "erro": "The solver ECOS is not installed."
+          },
+          {
+            "execucao": 2,
+            "tempo_total": 0,
+            "memoria_mb": 0,
+            "iteracoes": 0,
+            "custo_total": 0,
+            "sucesso": false,
+            "erro": "The solver ECOS is not installed."
+          },
+          {
+            "execucao": 3,
+            "tempo_total": 0,
+            "memoria_mb": 0,
+            "iteracoes": 0,
+            "custo_total": 0,
+            "sucesso": false,
+            "erro": "The solver ECOS is not installed."
+          },
+          {
+            "execucao": 4,
+            "tempo_total": 0,
+            "memoria_mb": 0,
+            "iteracoes": 0,
+            "custo_total": 0,
+            "sucesso": false,
+            "erro": "The solver ECOS is not installed."
+          },
+          {
+            "execucao": 5,
+            "tempo_total": 0,
+            "memoria_mb": 0,
+            "iteracoes": 0,
+            "custo_total": 0,
+            "sucesso": false,
+            "erro": "The solver ECOS is not installed."
+          },
+          {
+            "execucao": 6,
+            "tempo_total": 0,
+            "memoria_mb": 0,
+            "iteracoes": 0,
+            "custo_total": 0,
+            "sucesso": false,
+            "erro": "The solver ECOS is not installed."
+          },
+          {
+            "execucao": 7,
+            "tempo_total": 0,
+            "memoria_mb": 0,
+            "iteracoes": 0,
+            "custo_total": 0,
+            "sucesso": false,
+            "erro": "The solver ECOS is not installed."
+          },
+          {
+            "execucao": 8,
+            "tempo_total": 0,
+            "memoria_mb": 0,
+            "iteracoes": 0,
+            "custo_total": 0,
+            "sucesso": false,
+            "erro": "The solver ECOS is not installed."
+          },
+          {
+            "execucao": 9,
+            "tempo_total": 0,
+            "memoria_mb": 0,
+            "iteracoes": 0,
+            "custo_total": 0,
+            "sucesso": false,
+            "erro": "The solver ECOS is not installed."
+          },
+          {
+            "execucao": 10,
+            "tempo_total": 0,
+            "memoria_mb": 0,
+            "iteracoes": 0,
+            "custo_total": 0,
+            "sucesso": false,
+            "erro": "The solver ECOS is not installed."
+          }
+        ]
+      },
+      "ortools": {
+        "nome": "OR-Tools",
+        "execucoes": [
+          {
+            "execucao": 1,
+            "tempo_total": 0.0557560920715332,
+            "memoria_mb": 2.17578125,
+            "iteracoes": 266,
+            "custo_total": 297480.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 2,
+            "tempo_total": 0.05227327346801758,
+            "memoria_mb": 0.12890625,
+            "iteracoes": 293,
+            "custo_total": 299973.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 3,
+            "tempo_total": 0.050971269607543945,
+            "memoria_mb": 0.1,
+            "iteracoes": 264,
+            "custo_total": 239573.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 4,
+            "tempo_total": 0.05223345756530762,
+            "memoria_mb": 3.47265625,
+            "iteracoes": 270,
+            "custo_total": 263289.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 5,
+            "tempo_total": 0.052474021911621094,
+            "memoria_mb": 0.1,
+            "iteracoes": 286,
+            "custo_total": 287842.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 6,
+            "tempo_total": 0.05188417434692383,
+            "memoria_mb": 0.15625,
+            "iteracoes": 278,
+            "custo_total": 277674.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 7,
+            "tempo_total": 0.04908394813537598,
+            "memoria_mb": 0.1,
+            "iteracoes": 250,
+            "custo_total": 271311.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 8,
+            "tempo_total": 0.052230119705200195,
+            "memoria_mb": 0.1,
+            "iteracoes": 261,
+            "custo_total": 274711.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 9,
+            "tempo_total": 0.05485129356384277,
+            "memoria_mb": 3.21484375,
+            "iteracoes": 306,
+            "custo_total": 266348.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 10,
+            "tempo_total": 0.05144858360290527,
+            "memoria_mb": 0.15234375,
+            "iteracoes": 267,
+            "custo_total": 243686.0,
+            "sucesso": true
+          }
+        ],
+        "estatisticas": {
+          "tempo_medio": 0.05232062339782715,
+          "tempo_mediano": 0.052231788635253906,
+          "tempo_desvio": 0.0018707117481405334,
+          "tempo_min": 0.04908394813537598,
+          "tempo_max": 0.0557560920715332,
+          "memoria_media": 0.970078125,
+          "iteracoes_media": 274.1,
+          "taxa_sucesso": 100.0
+        }
+      }
+    }
+  },
+  {
+    "tamanho": "100x100",
+    "m": 100,
+    "n": 100,
+    "num_repeticoes": 10,
+    "bibliotecas": {
+      "manual": {
+        "nome": "Implementação Manual",
+        "execucoes": [
+          {
+            "execucao": 1,
+            "tempo_total": 69.41354298591614,
+            "memoria_mb": 0.1,
+            "iteracoes": 327,
+            "custo_total": -9879762.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 2,
+            "tempo_total": 56.33373427391052,
+            "memoria_mb": 2.76953125,
+            "iteracoes": 311,
+            "custo_total": -9815445.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 3,
+            "tempo_total": 57.525595903396606,
+            "memoria_mb": 1.94921875,
+            "iteracoes": 317,
+            "custo_total": -9879725.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 4,
+            "tempo_total": 53.71431565284729,
+            "memoria_mb": 1.921875,
+            "iteracoes": 298,
+            "custo_total": -9879986.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 5,
+            "tempo_total": 51.94633364677429,
+            "memoria_mb": 0.9140625,
+            "iteracoes": 301,
+            "custo_total": -9835049.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 6,
+            "tempo_total": 51.89380621910095,
+            "memoria_mb": 0.1,
+            "iteracoes": 293,
+            "custo_total": -9857917.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 7,
+            "tempo_total": 56.48954701423645,
+            "memoria_mb": 4.4375,
+            "iteracoes": 324,
+            "custo_total": -9865196.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 8,
+            "tempo_total": 55.27274298667908,
+            "memoria_mb": 0.1,
+            "iteracoes": 301,
+            "custo_total": -9863920.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 9,
+            "tempo_total": 51.88150382041931,
+            "memoria_mb": 4.7734375,
+            "iteracoes": 306,
+            "custo_total": -9871130.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 10,
+            "tempo_total": 47.09511160850525,
+            "memoria_mb": 0.203125,
+            "iteracoes": 302,
+            "custo_total": -9870074.0,
+            "sucesso": true
+          }
+        ],
+        "estatisticas": {
+          "tempo_medio": 55.156623411178586,
+          "tempo_mediano": 54.493529319763184,
+          "tempo_desvio": 5.876451257618561,
+          "tempo_min": 47.09511160850525,
+          "tempo_max": 69.41354298591614,
+          "memoria_media": 1.726875,
+          "iteracoes_media": 308,
+          "taxa_sucesso": 100.0
+        }
+      },
+      "scipy": {
+        "nome": "SciPy (linprog)",
+        "execucoes": [
+          {
+            "execucao": 1,
+            "tempo_total": 0.19546294212341309,
+            "memoria_mb": 0.859375,
+            "iteracoes": 277,
+            "custo_total": 273471.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 2,
+            "tempo_total": 0.18538403511047363,
+            "memoria_mb": 0.1,
+            "iteracoes": 262,
+            "custo_total": 254307.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 3,
+            "tempo_total": 0.1861729621887207,
+            "memoria_mb": 0.1,
+            "iteracoes": 260,
+            "custo_total": 239696.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 4,
+            "tempo_total": 0.18274211883544922,
+            "memoria_mb": 11.953125,
+            "iteracoes": 256,
+            "custo_total": 233592.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 5,
+            "tempo_total": 0.18469572067260742,
+            "memoria_mb": 0.1,
+            "iteracoes": 266,
+            "custo_total": 251086.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 6,
+            "tempo_total": 0.19952845573425293,
+            "memoria_mb": 0.1,
+            "iteracoes": 279,
+            "custo_total": 255404.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 7,
+            "tempo_total": 0.2485346794128418,
+            "memoria_mb": 9.53125,
+            "iteracoes": 277,
+            "custo_total": 256645.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 8,
+            "tempo_total": 0.19504785537719727,
+            "memoria_mb": 0.1,
+            "iteracoes": 253,
+            "custo_total": 242639.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 9,
+            "tempo_total": 0.18609356880187988,
+            "memoria_mb": 13.5,
+            "iteracoes": 262,
+            "custo_total": 234151.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 10,
+            "tempo_total": 0.1808030605316162,
+            "memoria_mb": 0.1,
+            "iteracoes": 285,
+            "custo_total": 235581.0,
+            "sucesso": true
+          }
+        ],
+        "estatisticas": {
+          "tempo_medio": 0.19444653987884522,
+          "tempo_mediano": 0.1861332654953003,
+          "tempo_desvio": 0.01997586611388253,
+          "tempo_min": 0.1808030605316162,
+          "tempo_max": 0.2485346794128418,
+          "memoria_media": 3.644375,
+          "iteracoes_media": 267.7,
+          "taxa_sucesso": 100.0
+        }
+      },
+      "pulp": {
+        "nome": "PuLP",
+        "execucoes": [
+          {
+            "execucao": 1,
+            "tempo_total": 0.24824166297912598,
+            "memoria_mb": 0.23046875,
+            "iteracoes": 0,
+            "custo_total": 273471.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 2,
+            "tempo_total": 0.235748291015625,
+            "memoria_mb": 0.1,
+            "iteracoes": 0,
+            "custo_total": 254307.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 3,
+            "tempo_total": 0.24249815940856934,
+            "memoria_mb": 0.1,
+            "iteracoes": 0,
+            "custo_total": 239696.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 4,
+            "tempo_total": 0.2407360076904297,
+            "memoria_mb": 0.1,
+            "iteracoes": 0,
+            "custo_total": 233592.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 5,
+            "tempo_total": 0.24415993690490723,
+            "memoria_mb": 0.1,
+            "iteracoes": 0,
+            "custo_total": 251086.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 6,
+            "tempo_total": 0.23906755447387695,
+            "memoria_mb": 0.1,
+            "iteracoes": 0,
+            "custo_total": 255404.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 7,
+            "tempo_total": 0.22838330268859863,
+            "memoria_mb": 0.1,
+            "iteracoes": 0,
+            "custo_total": 256645.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 8,
+            "tempo_total": 0.2391057014465332,
+            "memoria_mb": 0.1,
+            "iteracoes": 0,
+            "custo_total": 242639.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 9,
+            "tempo_total": 0.2378222942352295,
+            "memoria_mb": 0.1,
+            "iteracoes": 0,
+            "custo_total": 234151.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 10,
+            "tempo_total": 0.23847699165344238,
+            "memoria_mb": 0.1,
+            "iteracoes": 0,
+            "custo_total": 235581.0,
+            "sucesso": true
+          }
+        ],
+        "estatisticas": {
+          "tempo_medio": 0.2394239902496338,
+          "tempo_mediano": 0.23908662796020508,
+          "tempo_desvio": 0.005275210224733375,
+          "tempo_min": 0.22838330268859863,
+          "tempo_max": 0.24824166297912598,
+          "memoria_media": 0.113046875,
+          "iteracoes_media": 0,
+          "taxa_sucesso": 100.0
+        }
+      },
+      "cvxpy": {
+        "nome": "CVXPY",
+        "execucoes": [
+          {
+            "execucao": 1,
+            "tempo_total": 0,
+            "memoria_mb": 0,
+            "iteracoes": 0,
+            "custo_total": 0,
+            "sucesso": false,
+            "erro": "The solver ECOS is not installed."
+          },
+          {
+            "execucao": 2,
+            "tempo_total": 0,
+            "memoria_mb": 0,
+            "iteracoes": 0,
+            "custo_total": 0,
+            "sucesso": false,
+            "erro": "The solver ECOS is not installed."
+          },
+          {
+            "execucao": 3,
+            "tempo_total": 0,
+            "memoria_mb": 0,
+            "iteracoes": 0,
+            "custo_total": 0,
+            "sucesso": false,
+            "erro": "The solver ECOS is not installed."
+          },
+          {
+            "execucao": 4,
+            "tempo_total": 0,
+            "memoria_mb": 0,
+            "iteracoes": 0,
+            "custo_total": 0,
+            "sucesso": false,
+            "erro": "The solver ECOS is not installed."
+          },
+          {
+            "execucao": 5,
+            "tempo_total": 0,
+            "memoria_mb": 0,
+            "iteracoes": 0,
+            "custo_total": 0,
+            "sucesso": false,
+            "erro": "The solver ECOS is not installed."
+          },
+          {
+            "execucao": 6,
+            "tempo_total": 0,
+            "memoria_mb": 0,
+            "iteracoes": 0,
+            "custo_total": 0,
+            "sucesso": false,
+            "erro": "The solver ECOS is not installed."
+          },
+          {
+            "execucao": 7,
+            "tempo_total": 0,
+            "memoria_mb": 0,
+            "iteracoes": 0,
+            "custo_total": 0,
+            "sucesso": false,
+            "erro": "The solver ECOS is not installed."
+          },
+          {
+            "execucao": 8,
+            "tempo_total": 0,
+            "memoria_mb": 0,
+            "iteracoes": 0,
+            "custo_total": 0,
+            "sucesso": false,
+            "erro": "The solver ECOS is not installed."
+          },
+          {
+            "execucao": 9,
+            "tempo_total": 0,
+            "memoria_mb": 0,
+            "iteracoes": 0,
+            "custo_total": 0,
+            "sucesso": false,
+            "erro": "The solver ECOS is not installed."
+          },
+          {
+            "execucao": 10,
+            "tempo_total": 0,
+            "memoria_mb": 0,
+            "iteracoes": 0,
+            "custo_total": 0,
+            "sucesso": false,
+            "erro": "The solver ECOS is not installed."
+          }
+        ]
+      },
+      "ortools": {
+        "nome": "OR-Tools",
+        "execucoes": [
+          {
+            "execucao": 1,
+            "tempo_total": 0.07033920288085938,
+            "memoria_mb": 0.265625,
+            "iteracoes": 294,
+            "custo_total": 273471.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 2,
+            "tempo_total": 0.06786870956420898,
+            "memoria_mb": 0.1,
+            "iteracoes": 338,
+            "custo_total": 254307.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 3,
+            "tempo_total": 0.0688478946685791,
+            "memoria_mb": 0.1,
+            "iteracoes": 332,
+            "custo_total": 239696.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 4,
+            "tempo_total": 0.06838798522949219,
+            "memoria_mb": 0.1,
+            "iteracoes": 310,
+            "custo_total": 233592.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 5,
+            "tempo_total": 0.06843256950378418,
+            "memoria_mb": 4.37109375,
+            "iteracoes": 335,
+            "custo_total": 251086.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 6,
+            "tempo_total": 0.06437301635742188,
+            "memoria_mb": 0.24609375,
+            "iteracoes": 277,
+            "custo_total": 255404.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 7,
+            "tempo_total": 0.07181143760681152,
+            "memoria_mb": 0.1,
+            "iteracoes": 338,
+            "custo_total": 256645.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 8,
+            "tempo_total": 0.06440186500549316,
+            "memoria_mb": 0.15625,
+            "iteracoes": 285,
+            "custo_total": 242639.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 9,
+            "tempo_total": 0.0735316276550293,
+            "memoria_mb": 0.1,
+            "iteracoes": 341,
+            "custo_total": 234151.0,
+            "sucesso": true
+          },
+          {
+            "execucao": 10,
+            "tempo_total": 0.06725859642028809,
+            "memoria_mb": 5.9296875,
+            "iteracoes": 319,
+            "custo_total": 235581.0,
+            "sucesso": true
+          }
+        ],
+        "estatisticas": {
+          "tempo_medio": 0.06852529048919678,
+          "tempo_mediano": 0.06841027736663818,
+          "tempo_desvio": 0.0028975776625311217,
+          "tempo_min": 0.06437301635742188,
+          "tempo_max": 0.0735316276550293,
+          "memoria_media": 1.146875,
+          "iteracoes_media": 316.9,
+          "taxa_sucesso": 100.0
+        }
+      }
+    }
+  }
+]
